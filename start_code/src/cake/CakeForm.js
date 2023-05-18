@@ -23,6 +23,9 @@ const CakeForm = ({listOfCakes, setListOfCakes}) => {
 
         updatedCakes.push(newCake);
 
+        // sorts cakes by rating
+        updatedCakes.sort((a,b) => (a.rating < b.rating) ? 1 : -1)
+
         setListOfCakes(updatedCakes);
     }
 

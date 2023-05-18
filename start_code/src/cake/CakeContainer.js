@@ -48,6 +48,9 @@ const CakeContainer = () => {
 		]		
 	)
 	
+	// sorts cakes by rating
+	listOfCakes.sort((a,b) => (a.rating < b.rating) ? 1 : -1);
+
 	const cakeList = listOfCakes.map(cake => <Cake 
 		cakeName={cake.cakeName} 
 		ingredients={cake.ingredients}
