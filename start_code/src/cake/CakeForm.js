@@ -51,7 +51,7 @@ const CakeForm = ({listOfCakes, setListOfCakes}) => {
 
                 <label> Price 
                     <input 
-                    className="number-input"
+                    class="number-input"
                     type="number"
                     name="price"
                     placeholder="Price"
@@ -61,7 +61,7 @@ const CakeForm = ({listOfCakes, setListOfCakes}) => {
                 </label>
                 <label> Rating 
                     <input 
-                    className="number-input"
+                    class="number-input"
                     type="number"
                     name="rating"
                     placeholder="Rating"
